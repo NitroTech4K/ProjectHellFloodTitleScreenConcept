@@ -132,7 +132,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _Emission_Brightness: 1.06
-    - _Emission_Speed: 0.5
+    - _Emission_Speed: 0.1
     - _Emission_Tiliing: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
