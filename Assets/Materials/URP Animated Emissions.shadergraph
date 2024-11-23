@@ -4014,8 +4014,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3221.0,
-            "y": 1329.0,
+            "x": -3229.0,
+            "y": 1202.0,
             "width": 208.0,
             "height": 315.0
         }
@@ -4186,8 +4186,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2801.0,
-            "y": 1332.0,
+            "x": -2809.0,
+            "y": 1205.0,
             "width": 208.0,
             "height": 302.0
         }
@@ -6776,8 +6776,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2556.0,
-            "y": 1319.0,
+            "x": -2564.0,
+            "y": 1192.0,
             "width": 208.0,
             "height": 302.0
         }
@@ -6921,7 +6921,7 @@
     "m_ShaderOutputName": "Min",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": -0.6399999856948853,
+        "x": 0.0,
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
@@ -8741,8 +8741,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2670.0,
-            "y": 904.0,
+            "x": -2678.0,
+            "y": 777.0,
             "width": 208.0,
             "height": 315.0
         }
