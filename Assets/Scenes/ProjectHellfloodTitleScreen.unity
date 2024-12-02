@@ -248,7 +248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &21691331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -765,7 +765,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1228,7 +1228,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1740,7 +1740,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 255
+    rgba: 4278190335
   m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2603,7 +2603,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -3584,7 +3584,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 255
+    rgba: 4278190335
   m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -4444,7 +4444,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 590028013}
+  m_TargetGraphic: {fileID: 945373851}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -6154,10 +6154,11 @@ Transform:
   - {fileID: 797665379}
   - {fileID: 1354477315}
   - {fileID: 1211702806}
+  - {fileID: 1618112626}
+  - {fileID: 2001271851}
   - {fileID: 242741931}
   - {fileID: 739672038}
   - {fileID: 1499703345}
-  - {fileID: 1618112626}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1396825942
@@ -7228,6 +7229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1618112626}
   - component: {fileID: 1618112627}
+  - component: {fileID: 1618112628}
   m_Layer: 0
   m_Name: Main To Credits
   m_TagString: Untagged
@@ -7277,6 +7279,20 @@ PlayableDirector:
     value: {fileID: 1860654824}
   m_ExposedReferences:
     m_References: []
+--- !u!114 &1618112628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618112625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f9763e7b6ae77428676edaa33c0e89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playableDirector: {fileID: 1618112627}
+  playButton: {fileID: 2145491373}
 --- !u!1001 &1646524303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8753,6 +8769,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1996406335}
   m_CullTransparentMesh: 1
+--- !u!1 &2001271850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2001271851}
+  - component: {fileID: 2001271853}
+  - component: {fileID: 2001271852}
+  m_Layer: 0
+  m_Name: Credits To Main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2001271851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001271850}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1396195213}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2001271852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001271850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f9763e7b6ae77428676edaa33c0e89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playableDirector: {fileID: 2001271853}
+  playButton: {fileID: 945373850}
+--- !u!320 &2001271853
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001271850}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 78e7f063cbef9ed41b8a9e9ff1e7a120, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -2538739081830260734, guid: e5f5924b29da8d043ad1974f03e65f8f, type: 2}
+    value: {fileID: 330585548}
+  - key: {fileID: -2788552972502645736, guid: e5f5924b29da8d043ad1974f03e65f8f, type: 2}
+    value: {fileID: 21691330}
+  - key: {fileID: 3136193340544156051, guid: e5f5924b29da8d043ad1974f03e65f8f, type: 2}
+    value: {fileID: 21691335}
+  - key: {fileID: 5095373117596893680, guid: e5f5924b29da8d043ad1974f03e65f8f, type: 2}
+    value: {fileID: 1860654826}
+  - key: {fileID: 756003806562645234, guid: e5f5924b29da8d043ad1974f03e65f8f, type: 2}
+    value: {fileID: 1860654824}
+  - key: {fileID: -2538739081830260734, guid: 78e7f063cbef9ed41b8a9e9ff1e7a120, type: 2}
+    value: {fileID: 330585548}
+  - key: {fileID: 756003806562645234, guid: 78e7f063cbef9ed41b8a9e9ff1e7a120, type: 2}
+    value: {fileID: 1860654824}
+  - key: {fileID: 5095373117596893680, guid: 78e7f063cbef9ed41b8a9e9ff1e7a120, type: 2}
+    value: {fileID: 1860654826}
+  - key: {fileID: -2788552972502645736, guid: 78e7f063cbef9ed41b8a9e9ff1e7a120, type: 2}
+    value: {fileID: 21691330}
+  - key: {fileID: 3136193340544156051, guid: 78e7f063cbef9ed41b8a9e9ff1e7a120, type: 2}
+    value: {fileID: 21691335}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &2001759723
 GameObject:
   m_ObjectHideFlags: 0
@@ -9294,7 +9394,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 255
+    rgba: 4278190335
   m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -9374,6 +9474,7 @@ GameObject:
   - component: {fileID: 2145491372}
   - component: {fileID: 2145491371}
   - component: {fileID: 2145491373}
+  - component: {fileID: 2145491374}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
@@ -9430,7 +9531,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -9542,6 +9643,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2145491374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145491369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f9763e7b6ae77428676edaa33c0e89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playableDirector: {fileID: 1354477316}
+  playButton: {fileID: 590028015}
 --- !u!1001 &5275666089936932352
 PrefabInstance:
   m_ObjectHideFlags: 0
