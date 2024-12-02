@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: c85fefa93ce30464ba723a6fa4b09875
+  - enabled: 1
+    path: Assets/Scenes/ProjectHellfloodTitleScreen.unity
+    guid: 0473c0633e023784f961a9a3c286378e
   m_configObjects: {}
