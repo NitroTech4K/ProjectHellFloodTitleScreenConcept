@@ -248,7 +248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &21691331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,7 +514,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &158128832
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -594,13 +594,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 158128831}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000014901161, y: 0.9966144, z: -0.08221881, w: -0.0000007748604}
-  m_LocalPosition: {x: -0.0060004513, y: -0.060981765, z: -0.019265575}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.035496388, y: 0.98619837, z: -0.07465709, w: -0.1434543}
+  m_LocalPosition: {x: -0.006, y: -0.02, z: 0.229}
+  m_LocalScale: {x: 0.6682063, y: 0.53291255, z: 0.75251}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 330585546}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.058, y: -163.671, z: -2.82}
 --- !u!95 &158128836
 Animator:
   serializedVersion: 5
@@ -4582,7 +4582,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 12.886}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -879.8865, y: -493.24136}
+  m_AnchoredPosition: {x: -879.8718, y: -493.17422}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &974094515
@@ -8962,7 +8962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 12.886}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -879.94403, y: -493.49576}
+  m_AnchoredPosition: {x: -879.91595, y: -493.37323}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2002298885
@@ -8997,8 +8997,7 @@ MonoBehaviour:
 
     Music
 
-    ------
-
+    -----------
 
     Dark Horror Background
     - leberchmus - Pixabay
@@ -9007,6 +9006,11 @@ MonoBehaviour:
 
     Horror Ambience
     Background #4 - DELOSound - Pixabay
+
+
+    Sound Effects
+
+    ---------------
 
 
 '
