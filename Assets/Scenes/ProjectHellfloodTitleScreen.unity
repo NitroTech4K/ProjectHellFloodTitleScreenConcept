@@ -3357,7 +3357,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 0.2
-      minScalar: 0.5
+      minScalar: 0.1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -3791,7 +3791,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 1000
+    maxNumParticles: 10000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -4175,30 +4175,30 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 4.6343436
-          outSlope: 4.6343436
+          inSlope: 4.573611
+          outSlope: 4.573611
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.0971551
+          inWeight: 0
+          outWeight: 0.12900934
         - serializedVersion: 3
-          time: 0.48197708
-          value: 1
-          inSlope: -0.0000018635534
-          outSlope: -0.0000018635534
+          time: 0.50395167
+          value: 0.65185165
+          inSlope: -0.08495905
+          outSlope: -0.08495905
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.12348645
+          inWeight: 0.15606393
+          outWeight: 0.33333334
         - serializedVersion: 3
           time: 1
           value: 0
-          inSlope: -4.26666
-          outSlope: -4.26666
+          inSlope: -4.727768
+          outSlope: -4.727768
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.09652097
-          outWeight: 0.33333334
+          inWeight: 0.06522923
+          outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
