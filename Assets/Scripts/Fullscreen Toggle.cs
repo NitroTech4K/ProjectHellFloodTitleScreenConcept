@@ -11,7 +11,7 @@ public class FullscreenToggle : MonoBehaviour
         fullscreenToggle.isOn = true;
 
         // Apply initial fullscreen setting
-        Screen.fullScreen = fullscreenToggle.isOn;
+        SetFullScreen(fullscreenToggle.isOn);
 
         // Add a listener to the toggle to call the OnToggleValueChanged method
         fullscreenToggle.onValueChanged.AddListener(OnToggleValueChanged);
@@ -20,6 +20,21 @@ public class FullscreenToggle : MonoBehaviour
     // Method called when the toggle value changes
     void OnToggleValueChanged(bool isFullscreen)
     {
+        SetFullScreen(isFullscreen);
+    }
+
+    void SetFullScreen(bool isFullscreen)
+    {
+        if (isFullscreen)
+        {
+            // Set fullscreen in exclusive mode
+            Screen.fullScreenMode = FullScreenMode.ExclusiveFullScreen;
+        }
+        else
+        {
+            // Set windowed mode
+            Screen.fullScreenMode = FullScreenMode.Windowed;
+        }
         Screen.fullScreen = isFullscreen;
     }
 
